@@ -31,7 +31,7 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
       
       await page.waitForTimeout(5000)
       console.log("[*] Google Mail Automation Registration Account");
-      console.log("[*] Author: RJD");
+      console.log("[*] Author: zulnurdiana");
       await page.setViewport({ width: 1366, height: 695 })
       console.log("[*] Trying to Fill Identity (with random identity)");
 
